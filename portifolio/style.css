@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+   }
+
+h1{
+    font-size: 200%;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+    text-decoration:wavy;
+}
+
+p {
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-style:normal;
+    text-align: justify;
+   }
+  
+   a{
+    color: rgb(0, 0, 0);
+   }
+
+   .bg {
+    height: 500px;
+    /*height vem do ingles e significa altura*/
+    width: 100%;
+    /*width vem do ingles e significa largura*/
+    /* espaço determinado para onde a imagem tem que caber */
+   
+    background-image: url(https://images.unsplash.com/photo-1718027765066-7d18bdd6113c?q=80&w=2070&auto=format&fit=crop&ixlib=rb4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    /* nao salvei a imagem no computador por isso puxei o URL */
+    background-size: cover;
+    /* o formato cover ajusta da imagem dentro do espaço determinado sem deformar ela mas
+   corta um pedaço, o formato contain faz a imagem aparecer sem corte mas deforma */
+    background-repeat: no-repeat;
+    /* vai garantir que a imagem não vai se repetir dentro do espaço determinado */
+    background-position: center;
+    background-attachment: fixed;
+    /* esse comando faz a imagem ficar fixada e o texto ir passando por cima, não funciona com
+   todo navegador */
+   }
